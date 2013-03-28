@@ -1,0 +1,26 @@
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\bin\Debug\TBNC Database Systems.exe
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\bin\Debug\TBNC Database Systems.pdb
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Properties.Resources.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC Database Systems.exe
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC Database Systems.pdb
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.RegisterChild.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.MainMenu.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Holidays.Holidays.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Holidays.Request.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Invoices.GenerateInvoice.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Child.ManageChild.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Records.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Supplier.AddSupplier.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Training___Qualifications.Training.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Invoices.Invoices.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Invoices.ViewInvoices.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Departments.AddDept.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Departments.ManageDept.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Supplier.ManageSupplier.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Employee.RegisterEmployee.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Employee.ManageEmployees.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Parent.AddTQ.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Training___Qualifications.AddTQ.resources
