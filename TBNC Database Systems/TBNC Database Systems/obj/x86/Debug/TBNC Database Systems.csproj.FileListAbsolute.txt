@@ -24,3 +24,4 @@ C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database 
 C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Employee.ManageEmployees.resources
 C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Parent.AddTQ.resources
 C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Training___Qualifications.AddTQ.resources
+C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\bin\Debug\MySql.Data.dll
