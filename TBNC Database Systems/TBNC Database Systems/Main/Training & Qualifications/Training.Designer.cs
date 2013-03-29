@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -44,16 +44,17 @@
             this.panel1.Size = new System.Drawing.Size(736, 370);
             this.panel1.TabIndex = 18;
             // 
-            // button2
+            // btnBack
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(28, 115);
-            this.button2.MinimumSize = new System.Drawing.Size(100, 30);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(114, 30);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Back";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Location = new System.Drawing.Point(28, 115);
+            this.btnBack.MinimumSize = new System.Drawing.Size(100, 30);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(114, 30);
+            this.btnBack.TabIndex = 17;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click_1);
             // 
             // label1
             // 
@@ -83,7 +84,7 @@
             this.ClientSize = new System.Drawing.Size(784, 562);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.label1);
             this.Name = "Training";
             this.Text = "Training";
@@ -96,7 +97,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
 

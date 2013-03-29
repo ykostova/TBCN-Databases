@@ -21,5 +21,11 @@ namespace TBNC_Database_Systems.Main.Training___Qualifications
             this.Owner.Show();
             this.Close();
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Owner.Show();
+            this.Close();
+        }
     }
 }

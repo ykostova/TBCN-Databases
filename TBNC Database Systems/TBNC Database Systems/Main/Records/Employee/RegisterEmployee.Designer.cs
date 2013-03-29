@@ -471,7 +471,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(221)))), ((int)(((byte)(246)))));
-            this.ClientSize = new System.Drawing.Size(784, 779);
+            this.ClientSize = new System.Drawing.Size(1045, 760);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.pictureBox1);
