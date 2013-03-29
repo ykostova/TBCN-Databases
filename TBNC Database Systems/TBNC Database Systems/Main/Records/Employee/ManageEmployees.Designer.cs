@@ -30,7 +30,7 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Personal = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnEdit = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -167,6 +167,16 @@
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
             this.Conditions = new System.Windows.Forms.TabPage();
+            this.label34 = new System.Windows.Forms.Label();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.Meds = new System.Windows.Forms.TabPage();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.btnDetails = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.Personal.SuspendLayout();
             this.EmergencyC.SuspendLayout();
@@ -176,9 +186,12 @@
             this.Record.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.MedRec.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.GP.SuspendLayout();
+            this.Conditions.SuspendLayout();
+            this.Meds.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -199,7 +212,7 @@
             this.Personal.Controls.Add(this.label19);
             this.Personal.Controls.Add(this.comboBox3);
             this.Personal.Controls.Add(this.label16);
-            this.Personal.Controls.Add(this.button1);
+            this.Personal.Controls.Add(this.btnEdit);
             this.Personal.Controls.Add(this.label15);
             this.Personal.Controls.Add(this.label14);
             this.Personal.Controls.Add(this.label13);
@@ -230,14 +243,14 @@
             this.Personal.Text = "Personal Information";
             this.Personal.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnEdit
             // 
-            this.button1.Location = new System.Drawing.Point(285, 475);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 27);
-            this.button1.TabIndex = 46;
-            this.button1.Text = "Edit";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnEdit.Location = new System.Drawing.Point(285, 475);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(111, 27);
+            this.btnEdit.TabIndex = 46;
+            this.btnEdit.Text = "Edit";
+            this.btnEdit.UseVisualStyleBackColor = true;
             // 
             // label15
             // 
@@ -1139,6 +1152,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.btnDetails);
             this.groupBox3.Location = new System.Drawing.Point(20, 147);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(448, 388);
@@ -1466,6 +1480,7 @@
             // 
             this.tabControl2.Controls.Add(this.GP);
             this.tabControl2.Controls.Add(this.Conditions);
+            this.tabControl2.Controls.Add(this.Meds);
             this.tabControl2.Location = new System.Drawing.Point(20, 44);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
@@ -1695,12 +1710,124 @@
             // 
             // Conditions
             // 
+            this.Conditions.Controls.Add(this.textBox21);
+            this.Conditions.Controls.Add(this.label34);
+            this.Conditions.Controls.Add(this.textBox22);
+            this.Conditions.Controls.Add(this.label35);
             this.Conditions.Location = new System.Drawing.Point(4, 22);
             this.Conditions.Name = "Conditions";
             this.Conditions.Size = new System.Drawing.Size(430, 443);
             this.Conditions.TabIndex = 1;
             this.Conditions.Text = "Conditions";
             this.Conditions.UseVisualStyleBackColor = true;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(26, 188);
+            this.label34.MinimumSize = new System.Drawing.Size(100, 0);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(100, 16);
+            this.label34.TabIndex = 115;
+            this.label34.Text = "Disabilities";
+            // 
+            // textBox22
+            // 
+            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox22.Location = new System.Drawing.Point(29, 57);
+            this.textBox22.Multiline = true;
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(373, 113);
+            this.textBox22.TabIndex = 114;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(26, 29);
+            this.label35.MinimumSize = new System.Drawing.Size(100, 0);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(100, 16);
+            this.label35.TabIndex = 113;
+            this.label35.Text = "Allergies";
+            // 
+            // textBox21
+            // 
+            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox21.Location = new System.Drawing.Point(29, 224);
+            this.textBox21.Multiline = true;
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(373, 113);
+            this.textBox21.TabIndex = 116;
+            // 
+            // Meds
+            // 
+            this.Meds.Controls.Add(this.label38);
+            this.Meds.Controls.Add(this.textBox24);
+            this.Meds.Controls.Add(this.label36);
+            this.Meds.Controls.Add(this.textBox23);
+            this.Meds.Location = new System.Drawing.Point(4, 22);
+            this.Meds.Name = "Meds";
+            this.Meds.Size = new System.Drawing.Size(430, 443);
+            this.Meds.TabIndex = 2;
+            this.Meds.Text = "Medication";
+            this.Meds.UseVisualStyleBackColor = true;
+            // 
+            // textBox23
+            // 
+            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox23.Location = new System.Drawing.Point(22, 73);
+            this.textBox23.Multiline = true;
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(373, 113);
+            this.textBox23.TabIndex = 115;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(19, 41);
+            this.label36.MinimumSize = new System.Drawing.Size(100, 0);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(100, 16);
+            this.label36.TabIndex = 116;
+            this.label36.Text = "Medication";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(19, 232);
+            this.label38.MinimumSize = new System.Drawing.Size(100, 0);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(100, 16);
+            this.label38.TabIndex = 118;
+            this.label38.Text = "Dosage";
+            // 
+            // textBox24
+            // 
+            this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox24.Location = new System.Drawing.Point(22, 264);
+            this.textBox24.Multiline = true;
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(373, 113);
+            this.textBox24.TabIndex = 117;
+            // 
+            // btnDetails
+            // 
+            this.btnDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetails.Location = new System.Drawing.Point(317, 347);
+            this.btnDetails.MinimumSize = new System.Drawing.Size(100, 30);
+            this.btnDetails.Name = "btnDetails";
+            this.btnDetails.Size = new System.Drawing.Size(114, 30);
+            this.btnDetails.TabIndex = 32;
+            this.btnDetails.Text = "Details";
+            this.btnDetails.UseVisualStyleBackColor = true;
             // 
             // ManageEmployees
             // 
@@ -1732,10 +1859,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
             this.MedRec.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);
             this.GP.ResumeLayout(false);
             this.GP.PerformLayout();
+            this.Conditions.ResumeLayout(false);
+            this.Conditions.PerformLayout();
+            this.Meds.ResumeLayout(false);
+            this.Meds.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1757,7 +1889,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
@@ -1882,5 +2014,15 @@
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.TabPage Conditions;
+        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.TabPage Meds;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.Button btnDetails;
     }
 }

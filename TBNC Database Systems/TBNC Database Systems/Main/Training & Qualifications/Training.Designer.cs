@@ -41,7 +41,7 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Location = new System.Drawing.Point(28, 161);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(736, 426);
+            this.panel1.Size = new System.Drawing.Size(736, 370);
             this.panel1.TabIndex = 18;
             // 
             // button2
@@ -80,7 +80,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(221)))), ((int)(((byte)(246)))));
-            this.ClientSize = new System.Drawing.Size(784, 608);
+            this.ClientSize = new System.Drawing.Size(784, 562);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button2);

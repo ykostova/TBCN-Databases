@@ -73,7 +73,7 @@ namespace TBNC_Database_Systems.Main.Records
 
         private void btnAddParent_Click(object sender, EventArgs e)
         {
-            ReqisterParent regParent = new ReqisterParent();
+            RegisterParent regParent = new RegisterParent();
             regParent.Owner = this;
 
             regParent.Show();
@@ -82,10 +82,10 @@ namespace TBNC_Database_Systems.Main.Records
 
         private void btnManageParents_Click(object sender, EventArgs e)
         {
-            ManageChild managec = new ManageChild();
-            managec.Owner = this;
+            ManageParent managep = new ManageParent();
+            managep.Owner = this;
 
-            managec.Show();
+            managep.Show();
             this.Hide();
         }
 

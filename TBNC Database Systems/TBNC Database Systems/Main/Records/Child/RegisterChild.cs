@@ -6,8 +6,6 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
-using TBNC_Database_Systems.Main;
 using TBNC_Database_Systems.Main.Records.Parent;
 
 namespace TBNC_Database_Systems.Main.Records.Child
@@ -27,8 +25,6 @@ namespace TBNC_Database_Systems.Main.Records.Child
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            DBConnect dbc = new DBConnect();
-            dbc.OpenConnection();
         }
 
         private void btnRegParent_Click(object sender, EventArgs e)

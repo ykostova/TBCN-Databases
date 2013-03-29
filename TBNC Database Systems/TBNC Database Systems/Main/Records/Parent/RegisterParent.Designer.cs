@@ -1,6 +1,6 @@
 ﻿namespace TBNC_Database_Systems.Main.Records.Parent
 {
-    partial class ReqisterParent
+    partial class RegisterParent
     {
         /// <summary>
         /// Required designer variable.

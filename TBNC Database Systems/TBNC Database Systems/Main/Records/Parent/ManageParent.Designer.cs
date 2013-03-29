@@ -1,6 +1,6 @@
-﻿namespace TBNC_Database_Systems.Main.Records.Child
+﻿namespace TBNC_Database_Systems.Main.Records.Parent
 {
-    partial class ManageChild
+    partial class ManageParent
     {
         /// <summary>
         /// Required designer variable.
@@ -174,16 +174,16 @@
             this.label48 = new System.Windows.Forms.Label();
             this.Consent = new System.Windows.Forms.TabPage();
             this.Funding = new System.Windows.Forms.TabPage();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.label77 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnSearch = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnDetails = new System.Windows.Forms.Button();
             this.label78 = new System.Windows.Forms.Label();
             this.textBox52 = new System.Windows.Forms.TextBox();
-            this.label77 = new System.Windows.Forms.Label();
-            this.btnBack = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.Personal.SuspendLayout();
             this.Parent.SuspendLayout();
@@ -197,9 +197,9 @@
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.MedRec.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -211,12 +211,12 @@
             this.tabControl1.Controls.Add(this.MedRec);
             this.tabControl1.Controls.Add(this.Consent);
             this.tabControl1.Controls.Add(this.Funding);
-            this.tabControl1.Location = new System.Drawing.Point(536, 170);
+            this.tabControl1.Location = new System.Drawing.Point(528, 163);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(488, 556);
             this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.tabControl1.TabIndex = 27;
+            this.tabControl1.TabIndex = 18;
             // 
             // Personal
             // 
@@ -1814,6 +1814,50 @@
             this.Funding.Text = "Funding";
             this.Funding.UseVisualStyleBackColor = true;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(654, 122);
+            this.label3.MinimumSize = new System.Drawing.Size(100, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(170, 25);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "Manage Parents";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::TBNC_Database_Systems.Properties.Resources.tbnc_top;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(492, 86);
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnBack
+            // 
+            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Location = new System.Drawing.Point(16, 122);
+            this.btnBack.MinimumSize = new System.Drawing.Size(100, 30);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(114, 30);
+            this.btnBack.TabIndex = 24;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // label77
+            // 
+            this.label77.AutoSize = true;
+            this.label77.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label77.Location = new System.Drawing.Point(178, 122);
+            this.label77.MinimumSize = new System.Drawing.Size(100, 0);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(160, 25);
+            this.label77.TabIndex = 25;
+            this.label77.Text = "Search Parents";
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
@@ -1821,10 +1865,10 @@
             this.panel1.Controls.Add(this.groupBox3);
             this.panel1.Controls.Add(this.label78);
             this.panel1.Controls.Add(this.textBox52);
-            this.panel1.Location = new System.Drawing.Point(24, 170);
+            this.panel1.Location = new System.Drawing.Point(16, 163);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(488, 556);
-            this.panel1.TabIndex = 32;
+            this.panel1.TabIndex = 26;
             // 
             // btnSearch
             // 
@@ -1845,7 +1889,7 @@
             this.groupBox3.Size = new System.Drawing.Size(448, 388);
             this.groupBox3.TabIndex = 30;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Chidlren";
+            this.groupBox3.Text = "Parents";
             // 
             // btnDetails
             // 
@@ -1867,7 +1911,7 @@
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(100, 16);
             this.label78.TabIndex = 29;
-            this.label78.Text = "Child\'s Name";
+            this.label78.Text = "Parent\'s Name";
             // 
             // textBox52
             // 
@@ -1878,64 +1922,20 @@
             this.textBox52.Size = new System.Drawing.Size(200, 22);
             this.textBox52.TabIndex = 26;
             // 
-            // label77
-            // 
-            this.label77.AutoSize = true;
-            this.label77.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label77.Location = new System.Drawing.Point(186, 129);
-            this.label77.MinimumSize = new System.Drawing.Size(100, 0);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(166, 25);
-            this.label77.TabIndex = 31;
-            this.label77.Text = "Search Children";
-            // 
-            // btnBack
-            // 
-            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBack.Location = new System.Drawing.Point(24, 129);
-            this.btnBack.MinimumSize = new System.Drawing.Size(100, 30);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(114, 30);
-            this.btnBack.TabIndex = 30;
-            this.btnBack.Text = "Back";
-            this.btnBack.UseVisualStyleBackColor = true;
-            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(662, 129);
-            this.label3.MinimumSize = new System.Drawing.Size(100, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(176, 25);
-            this.label3.TabIndex = 29;
-            this.label3.Text = "Manage Children";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::TBNC_Database_Systems.Properties.Resources.tbnc_top;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(20, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(492, 86);
-            this.pictureBox1.TabIndex = 28;
-            this.pictureBox1.TabStop = false;
-            // 
             // ManageChild
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(221)))), ((int)(((byte)(246)))));
             this.ClientSize = new System.Drawing.Size(1045, 745);
-            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label77);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.tabControl1);
             this.Name = "ManageChild";
-            this.Text = "ManageChild";
+            this.Text = "ManageParents";
             this.tabControl1.ResumeLayout(false);
             this.Personal.ResumeLayout(false);
             this.Personal.PerformLayout();
@@ -1957,10 +1957,10 @@
             this.groupBox1.PerformLayout();
             this.MedRec.ResumeLayout(false);
             this.MedRec.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1970,6 +1970,21 @@
 
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage Personal;
+        private System.Windows.Forms.TabPage Parent;
+        private System.Windows.Forms.TabPage EmergencyC;
+        private System.Windows.Forms.TabPage Record;
+        private System.Windows.Forms.TabPage MedRec;
+        private System.Windows.Forms.TabPage Consent;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
@@ -1985,15 +2000,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TabPage Parent;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.Label label24;
@@ -2021,7 +2027,44 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TabPage EmergencyC;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.TabPage Funding;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label48;
         private System.Windows.Forms.TabControl tabControl3;
         private System.Windows.Forms.TabPage First;
         private System.Windows.Forms.Label label49;
@@ -2073,56 +2116,13 @@
         private System.Windows.Forms.Label label75;
         private System.Windows.Forms.Label label76;
         private System.Windows.Forms.TextBox textBox51;
-        private System.Windows.Forms.TabPage Record;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.TabPage MedRec;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.TabPage Consent;
-        private System.Windows.Forms.TabPage Funding;
+        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Label label77;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button btnDetails;
         private System.Windows.Forms.Label label78;
         private System.Windows.Forms.TextBox textBox52;
-        private System.Windows.Forms.Label label77;
-        private System.Windows.Forms.Button btnBack;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

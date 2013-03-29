@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace TBNC_Database_Systems.Main.Records.Parent
 {
-    public partial class RegisterParent : Form
+    public partial class ManageParent : Form
     {
-        public RegisterParent()
+        public ManageParent()
         {
             InitializeComponent();
         }

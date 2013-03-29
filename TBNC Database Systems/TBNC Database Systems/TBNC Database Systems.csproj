@@ -49,7 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main\DBConnect.cs" />
     <Compile Include="Main\Holidays\Holidays.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +114,12 @@
     </Compile>
     <Compile Include="Main\Records\Employee\ManageEmployees.Designer.cs">
       <DependentUpon>ManageEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Records\Parent\ManageParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Records\Parent\ManageParent.Designer.cs">
+      <DependentUpon>ManageParent.cs</DependentUpon>
     </Compile>
     <Compile Include="Main\Records\Records.cs">
       <SubType>Form</SubType>
@@ -208,6 +213,9 @@
     <EmbeddedResource Include="Main\Records\Employee\RegisterEmployee.resx">
       <DependentUpon>RegisterEmployee.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\Records\Parent\ManageParent.resx">
+      <DependentUpon>ManageParent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\Records\Parent\RegisterParent.resx">
       <DependentUpon>RegisterParent.cs</DependentUpon>
     </EmbeddedResource>
@@ -225,6 +233,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Training &amp; Qualifications\Training.resx">
       <DependentUpon>Training.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\User Accounts\AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\User Accounts\ManageUsers.resx">
+      <DependentUpon>ManageUsers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
