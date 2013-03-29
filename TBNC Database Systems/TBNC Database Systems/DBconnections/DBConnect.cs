@@ -48,7 +48,7 @@ namespace TBNC_Database_Systems.Main
             }
             catch (MySqlException ex)
             {
-                CloseConnection();
+                this.CloseConnection();
                 //When handling errors, you can your application's response based 
                 //on the error number.
                 //The two most common error numbers when connecting are as follows:
@@ -225,6 +225,42 @@ namespace TBNC_Database_Systems.Main
                 cmd.ExecuteNonQuery();
 
                 cmd = new MySqlCommand(query2, connection);
+
+                cmd.ExecuteNonQuery();
+
+                //close connection
+                this.CloseConnection();
+            }
+        }
+
+        public void InsertChild(int address, DateTime _Start_Date, double _Regular_Days, int _Department_ID, double _Deposit_Amount, int paid_back, 
+            string _First_Name, string _Surname, char _Gender, DateTime _DOB)  
+        {
+            int record = -1;
+
+            string query = "CALL addChildRecord_prc(" + _Start_Date + "," + _Regular_Days + "," + _Department_ID + ", " + _Deposit_Amount + ", " + paid_back + ");";
+
+            string query2 = "SELECT ChildRecord_ID FROM child_record ORDER BY ChildRecord_ID ASC LIMIT 1;";
+
+            string query3 = "CALL addChild_prc('" +_First_Name + "','" + _Surname + "','" + _Gender + "', " + _DOB + ", " + record + ", "+ address +");";
+
+            //open connection
+            if (this.OpenConnection() == true)
+            {
+                //create command and assign the query and connection from the constructor
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+
+                //Execute command
+                cmd.ExecuteNonQuery();
+
+                cmd = new MySqlCommand(query2, connection);
+
+                MySqlDataReader dataReader = cmd.ExecuteReader();
+                dataReader.Read();
+
+                record = Convert.ToInt32(dataReader["ChildRecord_ID"]);
+
+                cmd = new MySqlCommand(query3, connection);
 
                 cmd.ExecuteNonQuery();
 
