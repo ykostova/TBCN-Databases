@@ -58,6 +58,9 @@ C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\bin\Debug\TB
 C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\bin\Debug\MySql.Data.dll
 C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC Database Systems.exe
 C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC Database Systems.pdb
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\bin\Debug\TBNC Database Systems.exe
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\bin\Debug\TBNC Database Systems.pdb
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\bin\Debug\MySql.Data.dll
 D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Holidays.Holidays.resources
 D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Holidays.Request.resources
@@ -83,3 +86,5 @@ D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Deb
 D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Properties.Resources.resources
 D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC Database Systems.exe
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC Database Systems.pdb

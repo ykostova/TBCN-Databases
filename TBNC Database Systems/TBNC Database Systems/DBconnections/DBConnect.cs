@@ -238,34 +238,43 @@ namespace TBNC_Database_Systems.Main
         {
             int record = -1;
 
-            string query = "CALL addChildRecord_prc(" + _Start_Date + "," + _Regular_Days + "," + _Department_ID + ", " + _Deposit_Amount + ", " + paid_back + ");";
+            string query = "CALL addChildRecord_prc(" + _Start_Date.ToShortDateString() + "," + _Regular_Days + "," + _Department_ID + ", " + _Deposit_Amount + ", " + paid_back + ");";
 
-            string query2 = "SELECT ChildRecord_ID FROM child_record ORDER BY ChildRecord_ID ASC LIMIT 1;";
+            string query2 = "SELECT Child_Record_ID FROM child_record ORDER BY Child_Record_ID ASC LIMIT 1;";
 
-            string query3 = "CALL addChild_prc('" +_First_Name + "','" + _Surname + "','" + _Gender + "', " + _DOB + ", " + record + ", "+ address +");";
+            string query3 = "CALL addChild_prc('" + _First_Name + "','" + _Surname + "','" + _Gender + "', " + _DOB.ToShortDateString() + ", " + record + ", " + address + ");";
 
             //open connection
             if (this.OpenConnection() == true)
             {
-                //create command and assign the query and connection from the constructor
-                MySqlCommand cmd = new MySqlCommand(query, connection);
+                try
+                {
+                    //create command and assign the query and connection from the constructor
+                    MySqlCommand cmd = new MySqlCommand(query, connection);
 
-                //Execute command
-                cmd.ExecuteNonQuery();
+                    //Execute command
+                    cmd.ExecuteNonQuery();
 
-                cmd = new MySqlCommand(query2, connection);
+                    cmd = new MySqlCommand(query2, connection);
 
-                MySqlDataReader dataReader = cmd.ExecuteReader();
-                dataReader.Read();
+                    MySqlDataReader dataReader = cmd.ExecuteReader();
+                    dataReader.Read();
 
-                record = Convert.ToInt32(dataReader["ChildRecord_ID"]);
+                    record = Convert.ToInt32(dataReader["Child_Record_ID"]);
 
-                cmd = new MySqlCommand(query3, connection);
+                    dataReader.Close();
 
-                cmd.ExecuteNonQuery();
+                    cmd = new MySqlCommand(query3, connection);
 
-                //close connection
-                this.CloseConnection();
+                    cmd.ExecuteNonQuery();
+
+                    //close connection
+                    this.CloseConnection();
+                }
+                catch (Exception e)
+                {
+                    //MessageBox.Show("Child: ", ("Child added!"));
+                }
             }
         }
 
