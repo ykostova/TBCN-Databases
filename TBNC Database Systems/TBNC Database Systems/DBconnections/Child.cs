@@ -35,27 +35,6 @@ namespace TBNC_Database_Systems.Main
             get { return gender; }
             set { gender = value; }
         }
-        private string home;
-
-        public string Home
-        {
-            get { return home; }
-            set { home = value; }
-        }
-        private string work;
-
-        public string Work
-        {
-            get { return work; }
-            set { work = value; }
-        }
-        private string mobile;
-
-        public string Mobile
-        {
-            get { return mobile; }
-            set { mobile = value; }
-        }
         private int address;
 
         public int Address
@@ -79,7 +58,18 @@ namespace TBNC_Database_Systems.Main
         }
 
         public Child()
+        { 
+        }
+
+        public Child(List<string> list)
         {
+            id = Convert.ToInt32(list.ElementAt(0));
+            name = list.ElementAt(1);
+            surname = list.ElementAt(2);
+            gender = Convert.ToChar(list.ElementAt(3));
+            address = Convert.ToInt32(list.ElementAt(4));
+            child_record = Convert.ToInt32(list.ElementAt(5));
+            dob = DateTime.Parse(list.ElementAt(6));
         }
     }
 }

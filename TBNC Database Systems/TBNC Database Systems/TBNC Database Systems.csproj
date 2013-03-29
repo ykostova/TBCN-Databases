@@ -49,6 +49,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBconnections\ActivityConsent.cs" />
+    <Compile Include="DBconnections\Address.cs" />
+    <Compile Include="DBconnections\Attendance.cs" />
+    <Compile Include="DBconnections\Child.cs" />
+    <Compile Include="DBconnections\ChildRecord.cs" />
+    <Compile Include="DBconnections\DBConnect.cs" />
+    <Compile Include="DBconnections\Department.cs" />
+    <Compile Include="DBconnections\EmergencyContact.cs" />
+    <Compile Include="DBconnections\Employee.cs" />
+    <Compile Include="DBconnections\EmployeeRecord.cs" />
+    <Compile Include="DBconnections\Holiday.cs" />
+    <Compile Include="DBconnections\Invoice.cs" />
+    <Compile Include="DBconnections\MedicalEmergency.cs" />
+    <Compile Include="DBconnections\MedicalRecord.cs" />
+    <Compile Include="DBconnections\ParentCS.cs" />
+    <Compile Include="DBconnections\ParentConsentChild.cs" />
+    <Compile Include="DBconnections\ParentToChild.cs" />
+    <Compile Include="DBconnections\PaymentType.cs" />
+    <Compile Include="DBconnections\Qualification.cs" />
+    <Compile Include="DBconnections\Supplier.cs" />
+    <Compile Include="DBconnections\Training.cs" />
+    <Compile Include="DBconnections\UserDetails.cs" />
+    <Compile Include="DBconnections\UserStatus.cs" />
     <Compile Include="Main\Holidays\Holidays.cs">
       <SubType>Form</SubType>
     </Compile>

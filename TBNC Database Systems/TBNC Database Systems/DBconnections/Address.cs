@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TBNC_Database_Systems.DBconnections
 {
-    class Address
+    public class Address
     {
         private int id;
 
@@ -75,6 +75,18 @@ namespace TBNC_Database_Systems.DBconnections
         {
             line2 = "";
             county = "";
+        }
+
+        public Address(List<string> list)
+        {
+            id = Convert.ToInt32(list.ElementAt(0));
+            number = list.ElementAt(1);
+            name = list.ElementAt(2);
+            line2 = list.ElementAt(3);
+            town = list.ElementAt(4);
+            county = list.ElementAt(5);
+            postcode = list.ElementAt(6);
+            country = list.ElementAt(7);
         }
     }
 }

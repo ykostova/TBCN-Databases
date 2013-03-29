@@ -6,6 +6,7 @@ using System.Text;
 //Add MySql Library
 using MySql.Data.MySqlClient;
 using System.Windows.Forms;
+using TBNC_Database_Systems.DBconnections;
 
 namespace TBNC_Database_Systems.Main
 {
@@ -47,11 +48,13 @@ namespace TBNC_Database_Systems.Main
             }
             catch (MySqlException ex)
             {
+                CloseConnection();
                 //When handling errors, you can your application's response based 
                 //on the error number.
                 //The two most common error numbers when connecting are as follows:
                 //0: Cannot connect to server.
                 //1045: Invalid user name and/or password.
+                Console.WriteLine(ex.ToString());
                 switch (ex.Number)
                 {
                     case 0:
@@ -81,6 +84,154 @@ namespace TBNC_Database_Systems.Main
             }
         }
 
+        public List<string> SelectAllParents()
+        {
+            string query = "SELECT * FROM parentsList_view";
+            List<string> list = new List<string>();
+            //Open connection
+            if (this.OpenConnection() == true)
+            {
+                //Create Command
+                MySqlCommand cmd = new MySqlCommand(query, this.connection);
+                //Create a data reader and Execute the command
+                MySqlDataReader dataReader = cmd.ExecuteReader();
+
+                //Read the data and store them in the list
+                while (dataReader.Read())
+                {
+                    list.Add(dataReader["Parent_ID"]+"");
+                    list.Add(dataReader["First_Name"]+ "");
+                    list.Add(dataReader["Surname"]+ "");
+                    list.Add(dataReader["Gender"]+ "");
+                    list.Add(dataReader["Address_ID"]+ "");                    
+                }
+
+                //close Data Reader
+                dataReader.Close();
+
+                //close Connection
+                this.CloseConnection();
+
+                //return list to be displayed
+                return list;
+            }
+            else
+            {
+                return list;
+            }
+        }
+
+        //Insert statement
+        public int InsertReturnAddress(string number, string name, string line, string town, string county, string postcode, string country)
+        {
+            int address = -1;
+            string query = "CALL addAddress_prc('" + number + "','" + name + "','" + line + "', '" + town + "', '" + county + "', '" + postcode + "', '" + country + "');";
+
+            string query2 = "SELECT Address_ID FROM address ORDER BY Address_ID ASC LIMIT 1;";
+            //open connection
+            if (this.OpenConnection() == true)
+            {
+                //create command and assign the query and connection from the constructor
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+
+                //Execute command
+                cmd.ExecuteNonQuery();
+
+                cmd = new MySqlCommand(query2, connection);
+
+                MySqlDataReader dataReader = cmd.ExecuteReader();
+                dataReader.Read();
+
+                address = Convert.ToInt32(dataReader["Address_ID"]);
+
+                //close connection
+                this.CloseConnection();
+            }
+            return address;
+        }
+
+        public Address SelectAddress(int id)
+        {
+            string query = "SELECT * FROM address WHERE Address_ID="+ id + ";";
+            List<string> list = new List<string>();
+            //Open connection
+            if (this.OpenConnection() == true)
+            {
+                //Create Command
+                MySqlCommand cmd = new MySqlCommand(query, this.connection);
+                //Create a data reader and Execute the command
+                MySqlDataReader dataReader = cmd.ExecuteReader();
+
+                //Read the data and store them in the list
+                while (dataReader.Read())
+                {
+                    list.Add(dataReader["Address_ID"] + "");
+                    list.Add(dataReader["Street_Number"] + "");
+                    list.Add(dataReader["Street_Name"] + "");
+                    list.Add(dataReader["Address_Line_2"] + "");
+                    list.Add(dataReader["Town"] + "");
+                    list.Add(dataReader["County"] + "");
+                    list.Add(dataReader["Postcode"] + "");
+                    list.Add(dataReader["Country"] + "");
+                }
+
+                //close Data Reader
+                dataReader.Close();
+
+                //close Connection
+                this.CloseConnection();
+
+                //return list to be displayed
+                return new Address(list);
+            }
+            else
+            {
+                return new Address(list);
+            }
+        }
+
+        //Insert statement
+        public void InsertAddress(string number, string name, string line, string town, string county, string postcode, string country)
+        {
+            string query = "CALL addAddress_prc('" + number + "','" + name + "','" + line + "', '" + town + "', '" + county + "', '" + postcode + "', '" + country + "');";
+
+            //open connection
+            if (this.OpenConnection() == true)
+            {
+                //create command and assign the query and connection from the constructor
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+
+                //Execute command
+                cmd.ExecuteNonQuery();
+
+                //close connection
+                this.CloseConnection();
+            }
+        }
+
+        public void InsertChild(Address mAddress, ChildRecord mChildRecord, Child mChild)
+        {
+            string query = "CALL addAddress_prc('" + mAddress.Number + "','" + mAddress.Name + "','" + mAddress.Line2 + "', '" + mAddress.Town + "', '" + mAddress.County + "', '" + mAddress.Postcode + "', '" + mAddress.Country + "');";
+            
+            string query2 = "CALL addChildRecord_prc('" + mAddress.Number + "','" + mAddress.Name + "','" + mAddress.Line2 + "', '" + mAddress.Town + "', '" + mAddress.County + "', '" + mAddress.Postcode + "', '" + mAddress.Country + "');";
+
+            //open connection
+            if (this.OpenConnection() == true)
+            {
+                //create command and assign the query and connection from the constructor
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+
+                //Execute command
+                cmd.ExecuteNonQuery();
+
+                cmd = new MySqlCommand(query2, connection);
+
+                cmd.ExecuteNonQuery();
+
+                //close connection
+                this.CloseConnection();
+            }
+        }
 
         /*
         //Insert statement

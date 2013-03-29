@@ -28,3 +28,33 @@ C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database 
 C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC Database Systems.pdb
 C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.User_Accounts.AddUser.resources
 C:\Users\Golden Crow\Documents\Computing\Database Systems\Project\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.User_Accounts.ManageUsers.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Holidays.Holidays.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Holidays.Request.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Invoices.GenerateInvoice.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Invoices.Invoices.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Invoices.ViewInvoices.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.MainMenu.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Child.ManageChild.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Child.RegisterChild.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Departments.AddDept.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Departments.ManageDept.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Employee.ManageEmployees.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Employee.RegisterEmployee.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Parent.ManageParent.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Parent.RegisterParent.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Records.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Supplier.AddSupplier.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Supplier.ManageSupplier.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Training___Qualifications.AddTQ.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Training___Qualifications.Training.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.User_Accounts.AddUser.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.User_Accounts.ManageUsers.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Properties.Resources.resources
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\bin\Debug\TBNC Database Systems.exe
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\bin\Debug\TBNC Database Systems.pdb
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\bin\Debug\MySql.Data.dll
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC Database Systems.exe
+C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC Database Systems.pdb

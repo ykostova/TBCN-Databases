@@ -67,7 +67,7 @@ namespace TBNC_Database_Systems.DBconnections
         public Invoice()
         { 
             notes="";
-            if (parent!=null) supplier = 0;
+            if (parent!=0) supplier = 0;
             else parent = 0;
 
         }
