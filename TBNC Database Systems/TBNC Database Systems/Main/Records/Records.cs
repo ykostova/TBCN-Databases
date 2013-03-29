@@ -73,7 +73,7 @@ namespace TBNC_Database_Systems.Main.Records
 
         private void btnAddParent_Click(object sender, EventArgs e)
         {
-            AddTQ regParent = new AddTQ();
+            ReqisterParent regParent = new ReqisterParent();
             regParent.Owner = this;
 
             regParent.Show();

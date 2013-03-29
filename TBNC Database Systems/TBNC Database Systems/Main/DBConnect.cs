@@ -26,10 +26,10 @@ namespace TBNC_Database_Systems.Main
         //Initialize values
         private void Initialize()
         {
-            server = "localhost";
-            database = "connectcsharptomysql";
-            uid = "username";
-            password = "password";
+            server = "arlia.computing.dundee.ac.uk";
+            database = "12ac3d28";
+            uid = "12ac3u28";
+            password = "111abc";
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
@@ -38,7 +38,7 @@ namespace TBNC_Database_Systems.Main
         }
 
         //open connection to database
-        private bool OpenConnection()
+        public bool OpenConnection()
         {
             try
             {
@@ -67,7 +67,7 @@ namespace TBNC_Database_Systems.Main
         }
 
         //Close connection
-        private bool CloseConnection()
+        public bool CloseConnection()
         {
             try
             {
@@ -81,6 +81,8 @@ namespace TBNC_Database_Systems.Main
             }
         }
 
+
+        /*
         //Insert statement
         public void Insert()
         {
@@ -213,5 +215,6 @@ namespace TBNC_Database_Systems.Main
         public void Restore()
         {
         }
+         */
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace TBNC_Database_Systems.Main.Records.Parent
 {
-    partial class AddTQ
+    partial class ReqisterParent
     {
         /// <summary>
         /// Required designer variable.
@@ -77,7 +77,7 @@
             this.label3.TabIndex = 26;
             this.label3.Text = "Register Parent";
             // 
-            // RegisterParent
+            // ReqisterParent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -90,7 +90,7 @@
             this.Controls.Add(this.panel1);
             this.MaximumSize = new System.Drawing.Size(800, 1080);
             this.MinimumSize = new System.Drawing.Size(800, 798);
-            this.Name = "RegisterParent";
+            this.Name = "ReqisterParent";
             this.Text = "RegisterParent";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace TBNC_Database_Systems.Main.Records.Parent
 {
-    public partial class AddTQ : Form
+    public partial class ReqisterParent : Form
     {
-        public AddTQ()
+        public ReqisterParent()
         {
             InitializeComponent();
         }
