@@ -58,3 +58,33 @@ C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\bin\Debug\TB
 C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\bin\Debug\MySql.Data.dll
 C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC Database Systems.exe
 C:\Users\Yolina\Desktop\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC Database Systems.pdb
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC Database Systems.exe
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC Database Systems.pdb
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Holidays.Holidays.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Holidays.Request.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Invoices.GenerateInvoice.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Invoices.Invoices.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Invoices.ViewInvoices.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.MainMenu.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Child.ManageChild.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Child.RegisterChild.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Departments.AddDept.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Departments.ManageDept.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Employee.ManageEmployees.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Employee.RegisterEmployee.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Parent.ManageParent.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Parent.RegisterParent.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Records.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Supplier.AddSupplier.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Records.Supplier.ManageSupplier.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Training___Qualifications.AddTQ.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.Training___Qualifications.Training.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.User_Accounts.AddUser.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Main.User_Accounts.ManageUsers.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\TBNC_Database_Systems.Properties.Resources.resources
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\bin\Debug\TBNC Database Systems.exe
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\bin\Debug\TBNC Database Systems.pdb
+D:\GitHub\TBCN-Databases\TBNC Database Systems\TBNC Database Systems\bin\Debug\MySql.Data.dll
