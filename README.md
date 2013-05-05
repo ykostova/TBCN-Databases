@@ -1,6 +1,6 @@
 TBCN-Databases
 ==============
-Teddy Bear Club Nursery Desktop Application
+Nursery Desktop Management Application
 
 This desktop application uses C# as base development technology which is directly connected to a MySQL database.
 
